@@ -25,7 +25,7 @@ SECRET_KEY = '7_mgn73p^+em!&8&=*qj&$4#c^0)nsq$9-2%*wv2a#vqb#=#o2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['djangorest193.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['word193.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -125,4 +125,5 @@ STATIC_URL = '/static/'
 
 AUTH_USER_MODEL ='profiles_api.UserProfile'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = 'static'
+
